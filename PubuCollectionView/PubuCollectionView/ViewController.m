@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    //实现瀑布流
     UICollectionViewWaterfallLayout *layout=[[UICollectionViewWaterfallLayout alloc] init];
     layout.delegate=self;
     layout.columnCount=2;
